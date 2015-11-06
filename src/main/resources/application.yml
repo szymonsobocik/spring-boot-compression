@@ -1,0 +1,12 @@
+server:
+  tomcat:
+    compression: on
+    compressable-mime-types: text/html,text/css,application/javascript,application/json,application/font-sfnt,application/font-woff,application/font-woff2
+#spring:
+#  http:
+#    gzip:
+#      enabled: true
+#      min-gzip-size: 5
+#      deflate-compression-level: 9
+#      mime-types: text/html,text/css,application/javascript,application/json,application/font-sfnt,application/font-woff,application/font-woff2
+#      excluded-agents: dupa12
